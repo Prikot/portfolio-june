@@ -1,6 +1,8 @@
 body {
   background: none;
+  margin: 0;
 }
+
 
 .wrapper {
   background: url('img/back.png') no-repeat;
@@ -10,6 +12,14 @@ body {
   background-size: 100% 600px;
   margin-bottom: 280px;
   color: white;
+
+  .box {
+    margin: 250px auto;
+  }
+
+  .triangle {
+    fill: white;
+  }
   .myworks-header {
     &:after {
       display: table;
@@ -127,6 +137,29 @@ body {
     width: 50%;
     height: 100%;
     background-color: rgb(225, 228, 215);
+  }
+  .aboutme-block {
+    width: 100%;
+    //background-image: url();
+
+    .aboutme-title {
+      width: 500px;
+      font-size: 50px;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+
+    }
+    .aboutme-people {
+      width: 41.6%;
+    }
+
+    .aboutme-people-left {
+      width: 50%;
+      text-align: center;
+    }
+
+
   }
 }
 

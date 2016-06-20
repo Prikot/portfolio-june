@@ -2,11 +2,11 @@ doctype html
 html(lang="en")
 head
   meta(charset="UTF-8")
-  meta(name="viewport" content="width=device-width")
-  link(href='normalize.css', rel='stylesheet')
-  link(href='main.css', rel='stylesheet')
-  link(href='myworks.css', rel='stylesheet')
-  link(href='font-awesome-4.6.3/css/font-awesome.min.css', rel='stylesheet')
+  meta(name="viewport",content="width=device-width")
+  link(href="css/normalize.css", rel="stylesheet")
+  link(href="css/main.css", rel="stylesheet")
+  link(href="myworks.css", rel="stylesheet")
+  link(href="css/font-awesome-4.6.3/css/font-awesome.min.css", rel="stylesheet")
 body
   .wrapper
     .promo
@@ -19,17 +19,30 @@ body
           a.in(href="#")
             i.fa.fa-linkedin(aria-hidden="true")
       .avatar-block
-        img.photo(src="img/", alt="Logo")
+        img.photo(src="#", alt="Logo")
         p.name Александр Прикотов
         p.sitetitle Личный сайт веб-разработчика
+      .box
+        svg.triangle(xmlns="http://www.w3.org/2000/svg", viewbox="0 0 1000 85", preserveaspectratio="none")
+          polygon(points="0,0   0,86   500.8,86   500.8,75.5")
+          polygon(points="1000,0   1000,86   500,86   500,75.5")
     .content
       h1.page-title Мои работы
       hr.horizontal-line
       .works-block
         .description
-          .work-title Сайт школы онлайн образования
+          p.work-title Сайт школы онлайн образования
           hr.horizontal-line
-          .work-description html, css, javascript
+          p.work-description html, css, javascript
           a.work-site(href="#") Посмотреть сайт
         .presentation
+      .aboutme-block
+        h1.aboutme-title Что обо мне говорят
+          hr.horizontal-line
+        .aboutme-people
+          .aboutme-people-left
+            img.aboutme-people-img(src="", alt="Avatar")
+            p.aboutme-people-quote Lorem ipsum dolor sit amet, consectetur
+            p.aboutme-people-who Дмитрий Ковальчук
+            p.aboutme-people-whois - основатель LoftSchool
     footer.copyright Создано с любовью

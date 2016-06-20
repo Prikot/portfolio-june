@@ -18,7 +18,14 @@
   },
   "homepage": "https://github.com/Prikot/portfolio#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-concat-css": "^2.3.0"
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "jade": "^1.11.0",
+    "sass": "^3.4.22"
   }
 }
